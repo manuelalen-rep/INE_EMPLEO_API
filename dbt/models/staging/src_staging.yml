@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging_ine
+    database: STAGING # El nombre de tu base de datos original
+    schema: STAGING   # En MySQL, database y schema suelen ser lo mismo
+    tables:
+      - name: ocupaciones
+      - name: composicion_salario_bruto
